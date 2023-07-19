@@ -58,14 +58,14 @@ button:hover {
     box-shadow: 0 0 50px #ff2bdc;
 }
   
-input[type="text"], input[type="email"], textarea {
+input, textarea {
     width: 95%;
     font-size: 16px;
     outline: none;
 
 }
   
-input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+input:focus, textarea:focus {
     border-color: #ff0000;
     box-shadow: 0 0 20px #ff6b6b;
 }
